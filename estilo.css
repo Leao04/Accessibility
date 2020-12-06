@@ -3,6 +3,10 @@ html[dark]{
     color: white;
 }
 
+html[dark] a{
+    color: white;
+}
+
 body[size-mode]{
     font-size: 30px;
 }
@@ -101,4 +105,8 @@ padding-left: 550px;
 
 .text{
     padding-left: 20px;
+}
+
+html[dark] p:hover{
+    color: white !important;
 }
